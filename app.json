@@ -24,6 +24,19 @@
       }
     },
     "web": {
+      "sourceExts": [
+        "web.js",
+        "js",
+        "jsx",
+        "json",
+        "ts",
+        "tsx"
+      ],
+      "build": {
+        "babel": {
+          "include": ["src/*"]
+        }
+      },
       "favicon": "./assets/favicon.png"
     }
   }
